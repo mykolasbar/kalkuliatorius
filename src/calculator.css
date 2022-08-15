@@ -1,0 +1,75 @@
+.laukelis1, laukelis1:focus {
+    width: 130px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none
+}
+.laukelis2, laukelis2:focus {
+    width: 130px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none
+}
+.ivedimasIrAtvaizdavimas {
+    width: 140px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color:white;
+}
+.laukelis:hover {
+    background-color: rgb(250, 247, 235);
+}
+.mygtukas {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 5px;
+    font-size: larger;
+    border-radius: 10px;
+    background-color:rgb(167, 225, 225);
+}
+.mygtukas:hover {
+    background-color:rgb(120, 203, 203);
+}
+.mygtukasvalyti {
+    width: 130px;
+    margin: 5px;
+    font-size: larger;
+    border-radius: 10px;
+    background-color: rgb(220, 183, 183);
+}
+.mygtukasvalyti:hover {
+    background-color: rgb(209, 147, 147);
+}
+.rezultatoStilius {
+    display: block;
+    width: 130px;
+    font-size: 20px;
+    text-align: right;
+}
+.skaiciofke {
+    display: flex;
+    flex-direction:column;
+    border: 1px solid;
+    border-radius: 10px;
+    margin:10px;
+    width: 147px;
+    /* background-color: rgb(238, 244, 249); */
+    background: linear-gradient(60deg, rgb(238, 244, 249), rgb(211, 221, 221));
+    padding: 10px;
+    justify-content: center;
+    align-items:center;
+}
+.bodybox {
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
