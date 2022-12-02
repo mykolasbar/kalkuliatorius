@@ -13,7 +13,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Calculator />} />
           <Route path='/calculator' element={<Calculator />} />
-          <Route path='/About' element={<About />} />
+          <Route path='/about' element={<About />} />
+          <Route path="/" index element={<Calculator />} />
         </Routes>
       </BrowserRouter>
       <Footer/>
