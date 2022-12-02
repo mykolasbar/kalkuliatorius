@@ -3,16 +3,21 @@ import Calculator from "./calculator";
 import Header from './header';
 import About from './About';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Footer from './footer';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Header/>
-      <Routes>
-        <Route exact path='/calculator' element={<Calculator />} />
-        <Route exact path='/About' element={<About />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Header/>
+        <Routes>
+          <Route path="/" element={<Calculator />} />
+          <Route path='/calculator' element={<Calculator />} />
+          <Route path='/About' element={<About />} />
+        </Routes>
+      </BrowserRouter>
+      <Footer/>
+    </>
   );
 }
 
