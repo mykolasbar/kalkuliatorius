@@ -3,4 +3,4 @@ Mokyklos projektas: apriboto funkcionalumo kalkuliatorius. Veiksmus galima daryt
 
 Padaryta su ReactJS.
 
-<b>Projektas pasiekiamas: <a href="https://mykolasbar.github.io/password-generator">https://mykolasbar.github.io/password-generator/</a></b>
+<b>Projektas pasiekiamas: <a href="https://mykolasbar.github.io/kalkuliatorius">https://mykolasbar.github.io/kalkuliatorius/</a></b>
